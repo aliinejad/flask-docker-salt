@@ -11,7 +11,7 @@ Return -> {“result”:30}
 
 -----------------------------------------------------------
 
-Dockerize the application (listen on port 8000 on start)
+Dockerize the application (listen on port 5000 on start)
 
 ------------------------------------------------
 
