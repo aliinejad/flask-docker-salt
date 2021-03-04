@@ -51,7 +51,7 @@ Drop_port_5000:
     - save: True
 
 
-ACCEOT_localhost_for_5000:
+ACCEPT_localhost_for_5000:
   iptables.insert:
     - position: 1
     - table: filter
