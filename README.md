@@ -23,6 +23,7 @@ on the machine (do these steps manually)
 ---------------------------------
 
 NOTES:
+
 ● DO NOT use cmd.run or any other run command unless absolutely necessary.
 ● MAKE SURE nginx is installed before running the container application.
 ● Use iptables to BLOCK direct access to the application, access should only be available
