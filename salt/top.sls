@@ -1,6 +1,4 @@
-
-base:
-  '*':
-    - nginx
-    - iptables
-    - flask
+include:
+  - nginx
+  - iptables
+  - flask
