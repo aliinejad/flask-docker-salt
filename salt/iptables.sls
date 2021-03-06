@@ -1,5 +1,5 @@
 
-Drop_port_5000:
+drop_port_5000:
   iptables.insert:
     - position: 1
     - table: filter
@@ -10,7 +10,7 @@ Drop_port_5000:
     - save: True
 
 
-ACCEPT_localhost_for_5000:
+accept_localhost_for_5000:
   iptables.insert:
     - position: 1
     - table: filter
