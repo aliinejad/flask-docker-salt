@@ -1,5 +1,5 @@
 
-FLASK_run_container:
+run_flask_container:
   docker_container.run:
   - image: flask
   - name: flask
